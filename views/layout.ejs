@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/styles.css"> <!-- Link to your CSS -->
+    <title><%= title %></title>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Your navigation items -->
+            <a href="/">Home</a>
+            <a href="/products">Products</a>
+            <a href="/our-story">Our Story</a>
+            <a href="/contact-us">Contact Us</a>
+            <a href="/account">Account</a>
+            <a href="/cart">Cart</a>
+        </nav>
+    </header>
+    
+    <main>
+        <%- body %> <!-- This is where the content from individual views will be rendered -->
+    </main>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    
+    <script src="/public/js/scripts.js"></script> <!-- Link to JS -->
+</body>
+</html>
